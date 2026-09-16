@@ -32,6 +32,11 @@ home, products, contacts, enquiry, About
 
 ## Changelog
 added logo,navigation,website content
+## 2026-09-16
+### Changes
+- Updated primary button styles with a smoother transition and rounded corners.
+- Improved typography spacing on mobile blog posts for better readability.
+- Added a map in the contact page
 ## References
 •	Bootstrap Documentation. (2025). Bootstrap Framework.
 
