@@ -1,0 +1,106 @@
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+}
+h1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 20px;
+}
+nav{
+    background-color: darkgray;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: grey;
+    border-radius: 90px;
+}
+h2{
+    padding: 20px;
+}
+.responsive image{
+    height: auto;
+    max-width: 100%;
+}
+.container{
+    
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+}
+.container div{
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px; 
+    
+}
+@media screen and (max-width: 768px){
+    body{
+        /*background-color: lightgrey;*/
+        font-size: medium;
+    }
+    .container{
+    background-color: grey;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li a{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        /*background-color: lightgrey;*/
+        font-size: medium;
+    }
+    .container{
+    background-color: grey;
+    display: inline-grid;
+    grid-template-columns: auto;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    nav ul{
+        flex-direction: column;
+        
+    }
+    nav ul li a{
+        display: block;
+    }
+}
+
+
+
