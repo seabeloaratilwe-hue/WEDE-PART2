@@ -37,6 +37,7 @@ added logo,navigation,website content
 - Updated primary button styles with a smoother transition and rounded corners.
 - Improved typography spacing on mobile blog posts for better readability.
 - Added a map in the contact page
+- added a class called myfirststyle under css
 ## References
 •	Bootstrap Documentation. (2025). Bootstrap Framework.
 
